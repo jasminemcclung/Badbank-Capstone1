@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "watch": "nodemon ./index.js",
-    "test": "jest",
+    "test": "mongo_test.js",
     "start": "node index.js"
   },
   "keywords": [],
