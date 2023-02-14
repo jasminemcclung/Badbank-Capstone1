@@ -69,6 +69,6 @@ app.get('/acount/destroy/:email',function (req, res){
     })
 })
 
-var port = 8080;
+var port = 3000;
 app.listen(port);
 console.log(`Running on port: ${port}`);
