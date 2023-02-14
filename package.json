@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "build": "npm install",
     "watch": "nodemon ./index.js",
     "test": "mongo_test.js",
     "start": "node index.js"
